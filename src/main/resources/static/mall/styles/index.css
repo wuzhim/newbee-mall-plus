@@ -1,3 +1,8 @@
+.hidden-div {
+    display: none;
+    visibility: hidden;
+}
+
 .all-sort-list {
     position: relative;
     float: left;

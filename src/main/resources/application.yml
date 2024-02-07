@@ -21,7 +21,7 @@ project:
   # 项目名称
   name: newbee-mall-plus
   # 上传文件的默认url前缀，根据部署设置自行修改，windows下路径
-  fileUploadPath: D:\\upload\\
+  fileUploadPath: /Users/zhimin.wu/tmp/newbee-mall-plus/upload
   # 订单未支付超期时间，单位秒
   orderUnpaidOverTime: 300
   # 服务器地址
@@ -65,8 +65,17 @@ alipay:
   app-id:
   rsa-private-key:
   alipay-public_key:
-  gateway: https://openapi.alipaydev.com/gateway.do
+  gateway: https://openapi.alipay.com/gateway.do
   charset: UTF-8
   format: json
-  log-path: D://newbee-mall-plus//log
+  log-path: /Users/zhimin.wu/tmp/newbee-mall-plus/logs
   signtype: RSA2
+
+gameSavePv:
+  capacityInGB: 20
+  bucketName: jqmanyi
+
+
+ossSecret:
+  ak:
+  sk:
